@@ -1,4 +1,5 @@
-["Anemone",
+[
+	"Anemone",
 "Amaryllis",
 "Amaranth",
 "Amaranthus",
@@ -15,7 +16,6 @@
 "Bluebell",
 "Bottlebrush",
 "Callistemon",
-"Buttercup",
 "Ranunculus",
 "Camellia",
 "Carnation",
@@ -88,4 +88,5 @@
 "Violets",
 "Viola",
 "Nymphaea Odorata",
-"Zinnia"]
+"Zinnia"
+]

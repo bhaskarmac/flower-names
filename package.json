@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/bhaskarmac/flower-names/issues"
   },
-  "homepage": "https://github.com/bhaskarmac/flower-names#readme"
+  "homepage": "https://github.com/bhaskarmac/flower-names#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
 }

@@ -1,8 +1,7 @@
-
-
-
+var uniqueRandomArray = require('unique-random-array');
+var flowerNames = require('./flower-names.json');
 
 module.exports = {
-	all,
-	random
+	all: flowerNames,
+	random: uniqueRandomArray(flowerNames)
 }
