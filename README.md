@@ -1,2 +1,3 @@
-# pokemon-names
-Get random Pokemon names
+# flower-names
+
+Get random flower names
