@@ -1,7 +1,7 @@
 {
   "name": "flower-names",
-  "version": "1.0.0",
-  "description": "Get random Pokemon names",
+  "version": "1.0.1",
+  "description": "Get random flower names",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
