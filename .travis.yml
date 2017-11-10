@@ -1,18 +1,20 @@
 sudo: false
 language: node_js
 cache:
-  directories:
-    - node_modules
+directories:
+  - node_modules
 notifications:
-  email: false
+    email: false
 node_js:
-  - iojs
-before_install:
-  - npm i -g npm@^3.0.0
+  - '7'
+  - '6'
+  - '4'
 before_script:
   - npm prune
-script: "sudo $(which npm) test"
-# script:
-  # - npm test
+script:
+  - npm test
 after_success:
   - npm run semantic-release
+branches:
+  except:
+    - /^v\d+\.\d+\.\d+$/
