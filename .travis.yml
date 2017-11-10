@@ -11,7 +11,8 @@ before_install:
   - npm i -g npm@^3.0.0
 before_script:
   - npm prune
-script:
-  - npm test
+script: "sudo $(which npm) test"
+# script:
+  # - npm test
 after_success:
   - npm run semantic-release
