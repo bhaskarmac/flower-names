@@ -1,6 +1,6 @@
 # flower-names
 
-Get random flower names
+Get random or all available flower names
 
 
 ## Installation
